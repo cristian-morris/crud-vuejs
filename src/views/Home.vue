@@ -20,7 +20,7 @@
               <th>fecha de alta</th>
               <th>fecha de baja</th>
               <th>fecha de modificacion</th>
-              <th>Acciones</th> <!-- Nueva columna de acciones -->
+              <th>Acciones</th> 
             
             </tr>
           </thead>

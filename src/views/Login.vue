@@ -29,8 +29,8 @@
             email: this.email,
             password: this.password,
           });
-          localStorage.setItem('token', response.data.token); // Guarda el token en el almacenamiento local
-          this.$router.push('/'); // Redirige a la vista del CRUD después del inicio de sesión exitoso
+          localStorage.setItem('token', response.data.token); 
+          this.$router.push('/'); 
         } catch (error) {
           console.error('Error al iniciar sesión:', error.response.data);
         }
